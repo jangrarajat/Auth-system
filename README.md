@@ -33,3 +33,28 @@ Frontend is built with **React + Vite** and styled using **Tailwind CSS**.
 ---
 
 ## 📂 Project Structure
+auth-system/
+│── backend/
+│ ├── models/ # Mongoose Schemas
+│ ├── routes/ # API Routes
+│ ├── controllers/ # Business Logic
+│ ├── server.js # Entry Point
+│ └── .env # Environment Variables
+│
+│── frontend/
+│ ├── src/
+│ │ ├── pages/ # React Pages (Login/Register/Dashboard)
+│ │ ├── components/# UI Components
+│ │ └── App.jsx
+│ └── vite.config.js
+│
+└── README.md
+
+
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
